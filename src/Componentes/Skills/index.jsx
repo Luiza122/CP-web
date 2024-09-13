@@ -11,15 +11,15 @@ function Skills({ skills }) {
     },
     {
       titulo: "Node JS",
-      nivel: "Noob",
-      tempoxp: "1 meses",
+      nivel: "Basico",
+      tempoxp: "4 meses",
       color: "blue",
       imagemIcone: "/assets/curinthia.png"
     },
     {
       titulo: "Python",
-      nivel: "Dó",
-      tempoxp: "0 meses",
+      nivel: "Intermediario",
+      tempoxp: "7 meses",
       color: "green"
     }
   ]

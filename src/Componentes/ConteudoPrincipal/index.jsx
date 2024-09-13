@@ -1,4 +1,3 @@
-import ContactForm from "../ContactForm";
 import PersonalInfo from "../PersonalInfo";
 import Skills from "../Skills";
 
