@@ -1,7 +1,7 @@
 import React from 'react';
 
 // Imagem de perfil (substitua pelo URL da sua imagem)
-const profileImageUrl = 'https://via.placeholder.com/150'; 
+const profileImageUrl = 'foto.jpg'; 
 
 function Apresentacao() {
   return (
@@ -14,7 +14,8 @@ function Apresentacao() {
             <img
               src={profileImageUrl}
               alt="Foto de Perfil"
-              className="w-32 h-32 md:w-48 md:h-48 rounded-full shadow-md"
+              style={{ width: '300px', height: '300px' }}  // Tamanho reduzido da imagem
+              className="rounded-full shadow-md"
             />
           </div>
           
@@ -41,4 +42,3 @@ function Apresentacao() {
 }
 
 export default Apresentacao;
- 
