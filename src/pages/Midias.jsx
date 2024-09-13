@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaGithub, FaLinkedin, FaInstagram } from 'react-icons/fa';
+import { FaGithub, FaInstagram, FaLinkedin } from 'react-icons/fa';
 
 function Midias() {
   return (
@@ -9,7 +9,7 @@ function Midias() {
         <div className="flex flex-col md:flex-row justify-center items-center space-y-6 md:space-y-0 md:space-x-6">
           {/* Link GitHub */}
           <a
-            href="https://github.com/Luiza12" // Substitua pelo seu link do GitHub
+            href="https://github.com/Luiza122" // Link para o GitHub
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center space-x-3 text-gray-800 hover:text-gray-600 transition-colors"
@@ -17,25 +17,25 @@ function Midias() {
             <FaGithub size={32} className="text-gray-800" />
             <span className="text-lg font-semibold">GitHub</span>
           </a>
-          {/* Link LinkedIn */}
-          <a
-            href="https://www.linkedin.com/in/seu-perfil" // Substitua pelo seu link do LinkedIn
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center space-x-3 text-gray-800 hover:text-gray-600 transition-colors"
-          >
-            <FaLinkedin size={32} className="text-gray-800" />
-            <span className="text-lg font-semibold">LinkedIn</span>
-          </a>
           {/* Link Instagram */}
           <a
-            href="https://www.instagram.com/Luuh_Macena" // Substitua pelo seu link do Instagram
+            href="https://www.instagram.com/luuh_macena_" // Link para o Instagram
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center space-x-3 text-gray-800 hover:text-gray-600 transition-colors"
           >
             <FaInstagram size={32} className="text-gray-800" />
             <span className="text-lg font-semibold">Instagram</span>
+          </a>
+          {/* Link LinkedIn */}
+          <a
+            href="https://www.linkedin.com/in/luiza-macena" // Link para o LinkedIn
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center space-x-3 text-gray-800 hover:text-gray-600 transition-colors"
+          >
+            <FaLinkedin size={32} className="text-gray-800" />
+            <span className="text-lg font-semibold">LinkedIn</span>
           </a>
         </div>
       </div>
