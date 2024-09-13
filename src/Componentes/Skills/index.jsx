@@ -10,6 +10,12 @@ function Skills({ skills }) {
       color: "red"
     },
     {
+      titulo: "CSS",
+      nivel: "Avançado",
+      tempoxp: "6 ano",
+      color: "purple"
+    },
+    {
       titulo: "Node JS",
       nivel: "Basico",
       tempoxp: "4 meses",
@@ -19,9 +25,21 @@ function Skills({ skills }) {
     {
       titulo: "Python",
       nivel: "Intermediario",
-      tempoxp: "7 meses",
+      tempoxp: "6 meses",
       color: "green"
-    }
+    },
+    {
+      titulo: "React",
+      nivel: "Basico",
+      tempoxp: "3 meses",
+      color: "cyan"
+    },
+    {
+      titulo: "JavaScript",
+      nivel: "Intermediario",
+      tempoxp: "5 meses",
+      color: "yellow"
+    },
   ]
 
   return (
