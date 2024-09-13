@@ -1,27 +1,29 @@
-*{
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
+
 body {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  background-color: #ffe6f2; 
 }
 
-.mainInfo{
+.mainInfo {
   min-height: calc(100vh - 200px);
   padding: 20px;
 }
 
 header {
-  background-color: #2980b9;
-  color: white;
+  background-color: #ff66b2;
   padding: 20px;
   height: 150px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-header h1{
+
+header h1 {
   margin-bottom: 10px;
 }
 
@@ -60,14 +62,17 @@ nav ul li a:hover {
 }
 
 .skill-card {
-  border: 1px solid #ccc;
+  border: 1px solid #ff99cc; 
   border-radius: 5px;
   padding: 10px;
   margin-bottom: 10px;
+  background-color: #ffccf2; 
 }
-#contact{
+
+#contact {
   text-align: center;
 }
+
 #contact form {
   display: flex;
   flex-direction: column;
@@ -75,25 +80,53 @@ nav ul li a:hover {
 }
 
 #contact form input,
-#contact form textarea{
+#contact form textarea {
   margin: 10px 100px;
   width: 50%;
   padding: 10px;
+  border: 1px solid #ff66b2; 
 }
+
 #contact form button {
   width: 10%;
   border-radius: 30px;
   border: none;
-  background-color:#2980b9 ;
+  background-color: #ff66b2; 
   color: white;
   padding: 10px;
   cursor: pointer;
 }
+
+
+
 footer {
-  background-color: #2980b9;
-  width: 100%;
+  background-color: #ff66b2; 
   color: white;
   text-align: center;
   padding: 10px 0;
   height: 50px;
+  width: 100%;
+  position: fixed; 
+  bottom: 0; 
+  left: 0; 
+}
+
+
+
+
+.foto-perfil {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%; 
+  border: 8px solid transparent; 
+  background-image: linear-gradient(45deg, #ff66b2, #ffccf2);
+  background-origin: border-box;
+  background-clip: content-box, border-box; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+
+.titulo-espacamento {
+  margin-bottom: 24px; 
+  margin-top: 20px; 
 }

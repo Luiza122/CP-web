@@ -1,7 +1,7 @@
 function Footer() {
   return (
     <footer>
-      <p>&copy; Meu portfólio</p>
+      <p>&copy; 2024 Luiza - Todos os direitos reservados.</p>
     </footer>
   );
 }
