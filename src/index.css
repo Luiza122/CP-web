@@ -1,3 +1,4 @@
+/* CSS Global */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -7,11 +8,6 @@
 body {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   background-color: #ffe6f2; 
-}
-
-.mainInfo {
-  min-height: calc(100vh - 200px);
-  padding: 20px;
 }
 
 header {
@@ -97,8 +93,6 @@ nav ul li a:hover {
   cursor: pointer;
 }
 
-
-
 footer {
   background-color: #ff66b2; 
   color: white;
@@ -111,9 +105,6 @@ footer {
   left: 0; 
 }
 
-
-
-
 .foto-perfil {
   width: 300px;
   height: 300px;
@@ -125,13 +116,10 @@ footer {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
-
 .titulo-espacamento {
   margin-bottom: 24px; 
   margin-top: 20px; 
 }
-
-
 
 .projetos {
   padding: 20px;
@@ -179,4 +167,74 @@ footer {
 .projeto-card a:hover {
   background-color: #ff66b2;
   color: #fff;
+}
+
+/* CSS para Mídias Sociais */
+.midias-container {
+  padding: 20px;
+  background-color: #fdfdfd; /* Fundo branco para destacar a seção */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra leve */
+  max-width: 800px; /* Largura máxima para a seção de mídias sociais */
+  margin: auto; /* Centraliza a seção na página */
+}
+
+.midias-container h1 {
+  font-size: 2rem; /* Tamanho do título */
+  color: #ff66b2; /* Cor do título */
+  margin-bottom: 20px; /* Espaçamento abaixo do título */
+}
+
+.midias-container p {
+  font-size: 1rem; /* Tamanho do texto */
+  color: #555; /* Cor do texto */
+  margin-bottom: 20px; /* Espaçamento abaixo do texto */
+}
+
+.media-card {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  border-radius: 8px;
+  background-color: #ffffff; /* Fundo branco para os cartões */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transição suave */
+  border: 1px solid #e0e0e0; /* Borda suave */
+  max-width: 400px; /* Largura máxima dos cartões */
+  width: 100%; /* Ocupa toda a largura disponível */
+  margin-bottom: 15px; /* Espaçamento abaixo dos cartões */
+}
+
+.media-card:hover {
+  transform: translateY(-5px); /* Levanta o cartão ao passar o mouse */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra mais forte ao passar o mouse */
+}
+
+.media-card svg {
+  flex-shrink: 0; /* Evita que o ícone encolha */
+  margin-right: 12px; /* Espaçamento entre ícone e texto */
+}
+
+.media-card div {
+  display: flex;
+  flex-direction: column;
+}
+
+.media-card span {
+  font-size: 1.25rem; /* Tamanho da fonte do título */
+  font-weight: 600; /* Peso da fonte para destaque */
+  color: #333; /* Cor do texto do título */
+}
+
+.media-card p {
+  font-size: 0.875rem; /* Tamanho da fonte da descrição */
+  color: #666; /* Cor do texto da descrição */
+}
+
+.text-blue-600 {
+  color: #007bff; /* Cor azul para links */
+}
+
+.text-blue-600:hover {
+  color: #0056b3; /* Azul mais escuro ao passar o mouse */
 }
