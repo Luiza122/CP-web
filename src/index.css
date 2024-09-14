@@ -130,3 +130,53 @@ footer {
   margin-bottom: 24px; 
   margin-top: 20px; 
 }
+
+
+
+.projetos {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px; 
+}
+
+.projeto-card {
+  background-color: #fff; 
+  border-radius: 10px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.projeto-card:hover {
+  transform: translateY(-10px); 
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+}
+
+.projeto-card h2 {
+  font-size: 1.5rem;
+  color: #ff66b2;
+  margin-bottom: 10px;
+}
+
+.projeto-card p {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.projeto-card a {
+  display: inline-block;
+  font-size: 1rem;
+  color: #ff66b2;
+  text-decoration: none;
+  border: 2px solid #ff66b2;
+  border-radius: 5px;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease, color 0.3s ease; 
+}
+
+.projeto-card a:hover {
+  background-color: #ff66b2;
+  color: #fff;
+}
