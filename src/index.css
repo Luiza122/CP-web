@@ -1,13 +1,26 @@
-/* CSS Global */
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
+html, body {
+  height: 100%;
+  margin: 0;
+  overflow-x: hidden; 
+}
+
 body {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   background-color: #ffe6f2; 
+  padding: 0;
+  overflow-y: auto; 
+}
+
+main {
+  min-height: calc(100vh - 150px); 
+  padding: 20px;
 }
 
 header {
@@ -169,26 +182,26 @@ footer {
   color: #fff;
 }
 
-/* CSS para Mídias Sociais */
+
 .midias-container {
   padding: 20px;
-  background-color: #fdfdfd; /* Fundo branco para destacar a seção */
+  background-color: #fdfdfd;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra leve */
-  max-width: 800px; /* Largura máxima para a seção de mídias sociais */
-  margin: auto; /* Centraliza a seção na página */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  max-width: 800px;
+  margin: auto; 
 }
 
 .midias-container h1 {
-  font-size: 2rem; /* Tamanho do título */
-  color: #ff66b2; /* Cor do título */
-  margin-bottom: 20px; /* Espaçamento abaixo do título */
+  font-size: 2rem;
+  color: #ff66b2;
+  margin-bottom: 20px; 
 }
 
 .midias-container p {
-  font-size: 1rem; /* Tamanho do texto */
-  color: #555; /* Cor do texto */
-  margin-bottom: 20px; /* Espaçamento abaixo do texto */
+  font-size: 1rem; 
+  color: #555; 
+  margin-bottom: 20px;
 }
 
 .media-card {
@@ -196,23 +209,23 @@ footer {
   align-items: center;
   padding: 15px;
   border-radius: 8px;
-  background-color: #ffffff; /* Fundo branco para os cartões */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
-  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transição suave */
-  border: 1px solid #e0e0e0; /* Borda suave */
-  max-width: 400px; /* Largura máxima dos cartões */
-  width: 100%; /* Ocupa toda a largura disponível */
-  margin-bottom: 15px; /* Espaçamento abaixo dos cartões */
+  background-color: #ffffff; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+  border: 1px solid #e0e0e0; 
+  max-width: 400px;
+  width: 100%; 
+  margin-bottom: 15px; 
 }
 
 .media-card:hover {
-  transform: translateY(-5px); /* Levanta o cartão ao passar o mouse */
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra mais forte ao passar o mouse */
+  transform: translateY(-5px); 
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
 }
 
 .media-card svg {
-  flex-shrink: 0; /* Evita que o ícone encolha */
-  margin-right: 12px; /* Espaçamento entre ícone e texto */
+  flex-shrink: 0; 
+  margin-right: 12px;
 }
 
 .media-card div {
@@ -221,20 +234,39 @@ footer {
 }
 
 .media-card span {
-  font-size: 1.25rem; /* Tamanho da fonte do título */
-  font-weight: 600; /* Peso da fonte para destaque */
-  color: #333; /* Cor do texto do título */
+  font-size: 1.25rem; 
+  font-weight: 600; 
+  color: #333; 
 }
 
 .media-card p {
-  font-size: 0.875rem; /* Tamanho da fonte da descrição */
-  color: #666; /* Cor do texto da descrição */
+  font-size: 0.875rem; 
+  color: #666;
 }
 
 .text-blue-600 {
-  color: #007bff; /* Cor azul para links */
+  color: #007bff; 
 }
 
 .text-blue-600:hover {
-  color: #0056b3; /* Azul mais escuro ao passar o mouse */
+  color: #0056b3; 
+}
+
+.contact-button {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #ff66b2; 
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  margin-top: 20px;
+}
+
+.contact-button:hover {
+  background-color: #ff3385;
+  transform: translateY(-2px); 
 }
