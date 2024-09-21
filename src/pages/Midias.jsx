@@ -3,15 +3,15 @@ import { FaGithub, FaInstagram, FaLinkedin } from 'react-icons/fa';
 
 function Midias() {
   return (
-    <div className="midias-container bg-gray-100 min-h-screen p-6">
-      <div className="max-w-4xl mx-auto bg-white p-8 rounded-lg shadow-lg">
-        <h1 className="text-4xl font-extrabold text-gray-800 mb-8 text-center">Minhas Mídias Sociais</h1>
+    <div className="midias-container">
+      <div>
+        <h1>Minhas Mídias Sociais</h1>
 
         <p className="text-lg text-gray-700 mb-6 text-center">
           Conecte-se comigo através das minhas redes sociais. Aqui você pode acompanhar meu trabalho, interagir e ficar atualizado com as novidades.
         </p>
 
-        <div className="flex flex-col md:flex-row justify-center items-center space-y-6 md:space-y-0 md:space-x-6">
+        <div>
           <div className="media-card">
             <a
               href="https://github.com/Luiza122" 
@@ -58,9 +58,9 @@ function Midias() {
           </div>
         </div>
 
-        <div className="mt-12 text-center">
-          <h2 className="text-2xl font-bold text-gray-800 mb-4">Entre em Contato</h2>
-          <p className="text-lg text-gray-700 mb-6">
+        <div>
+          <h2>Entre em Contato</h2>
+          <p>
             Se você quiser discutir oportunidades, colaborações ou apenas conversar, não hesite em entrar em contato.
           </p>
           <a

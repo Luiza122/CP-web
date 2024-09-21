@@ -5,11 +5,11 @@ const profileImageUrl = 'foto.jpg';
 function Apresentacao() {
   return (
     <div className="foto">
-      <div className="max-w-4xl mx-auto bg-white p-8 rounded-lg shadow-lg">
+      <div>
         
-        <div className="flex flex-col md:flex-row items-center">
+        <div>
           
-          <div className="w-full md:w-1/3 mb-6 md:mb-0 flex justify-center">
+          <div>
             <img
               src={profileImageUrl}
               alt="Foto de Perfil"
