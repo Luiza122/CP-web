@@ -41,7 +41,7 @@ function Lista() {
                 href={projeto.link}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-blue-600 hover:text-blue-800 font-medium"
+                className="project"
               >
                 Veja o Projeto
               </a>
