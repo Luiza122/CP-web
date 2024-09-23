@@ -6,7 +6,7 @@
 }
 
 html, body {
-  height: 100%;
+  height: 110%;
   margin: 0;
   overflow-x: hidden; 
 }
@@ -110,12 +110,12 @@ footer {
   background-color: #ff66b2; 
   color: white;
   text-align: center;
-  padding: 10px;
+  padding: 10px 0;
   height: 50px;
   width: 100%;
   position: fixed; 
   bottom: 0; 
-  left: 0;
+  left: 0; 
 }
 
 .foto-perfil {
@@ -154,7 +154,7 @@ footer {
   background-color: #fff; 
   border-radius: 10px; 
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
-  padding: 10px;
+  padding: 15px;
   transition: transform 0.3s ease, box-shadow 0.3s ease; 
 }
 
@@ -191,119 +191,81 @@ footer {
   color: #fff;
 }
 
-
-html, body {
-  height: 100%; /* Garantir que a altura da página seja 100% */
-  margin: 0; /* Remover margens padrão */
-}
-
-.container-principal {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh; /* Garantir que a altura mínima da página seja 100vh */
-}
-
-.container-midias {
+.midias-container {
   padding: 20px;
-  background-color: #f9f9f9; /* Fundo mais suave */
+  background-color: #fff;
   border-radius: 10px;
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   max-width: 1000px;
-  margin: auto; 
-  flex: 1; /* Permite que o container cresça e empurre o footer para baixo */
+  margin: auto;
 }
 
-.container-midias h1 {
-  font-size: 2.5rem; /* Tamanho maior */
+.midias-container h1 {
+  font-size: 2rem;
   color: #ff66b2;
-  margin-bottom: 20px; 
-  text-align: center; /* Centraliza o título */
-}
-
-.container-midias p {
-  font-size: 1rem; 
-  color: #555; 
   margin-bottom: 20px;
-  line-height: 1.5; /* Aumenta o espaçamento entre linhas */
 }
 
-.cards-midias {
-  display: flex;
-  flex-direction: column; /* Alinha os cards verticalmente */
-  gap: 15px; /* Espaçamento entre os cards */
+.midias-container p {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 20px;
 }
 
-.card-midias {
+.media-card {
   display: flex;
   align-items: center;
-  padding: 15px;
-  border-radius: 15px;
-  background-color: #ffffff; 
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
-  transition: transform 0.3s ease, box-shadow 0.3s ease; 
-  border: 1px solid #e0e0e0; 
+  padding: 10px;
+  border-radius: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid #e0e0e0;
   max-width: 400px;
-  width: 100%; 
-  margin: 0 auto; 
+  width: 100%;
+  margin-bottom: 15px;
 }
 
-.card-midias:hover {
-  transform: translateY(-5px); 
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+.media-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
-.card-midias svg {
-  flex-shrink: 0; 
-  margin-right: 15px; 
-  color: #ff66b2; 
+.media-card svg {
+  flex-shrink: 0;
+  margin-right: 12px;
 }
 
-.card-midias div {
+.media-card div {
   display: flex;
   flex-direction: column;
 }
 
-.card-midias span {
-  font-size: 1.25rem; 
-  font-weight: 600; 
-  color: #333; 
+.media-card span {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #333;
 }
 
-.card-midias p {
-  font-size: 0.875rem; 
+.media-card p {
+  font-size: 0.875rem;
   color: #666;
 }
 
-.texto-azul {
-  color: #007bff; 
+.midias-container p:last-child {
+  margin-bottom: 5px; /* Ajustar para um valor menor */
 }
 
-.texto-azul:hover {
-  color: #0056b3; 
-}
-
-.container-midias p:last-child {
-  margin-bottom: 3px; 
-}
-
-.botao-contato {
+.contact-button {
   display: inline-block;
-  padding: 12px 24px; 
+  padding: 10px 20px;
   border-radius: 5px;
-  background-color: #ff66b2; 
+  background-color: #ff66b2;
   color: white;
-  font-size: 1.1rem; 
+  font-size: 1rem;
   font-weight: bold;
   text-align: center;
   text-decoration: none;
   transition: background-color 0.3s ease, transform 0.3s ease;
-  margin-top: 0px; 
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 5px; /* Ajustar para um valor menor */
 }
-
-.botao-contato:hover {
-  background-color: #ff3385; 
-  transform: translateY(-3px); 
-}
-
-

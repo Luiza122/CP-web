@@ -1,9 +1,10 @@
 import React from 'react';
 import { FaGithub, FaInstagram, FaLinkedin } from 'react-icons/fa';
 
+
 function Midias() {
   return (
-    <div className="container-midias">
+    <div className="midias-container">
       <div>
         <h1>Minhas Mídias Sociais</h1>
 
@@ -12,9 +13,9 @@ function Midias() {
         </p>
 
         <div className="cards-midias">
-          <div className="card-media">
+          <div className="media-card">
             <a
-              href="https://github.com/Luiza122" 
+              href="https://github.com/Luiza122"
               target="_blank"
               rel="noopener noreferrer"
               className="link-github"
@@ -27,9 +28,9 @@ function Midias() {
             </a>
           </div>
 
-          <div className="card-media">
+          <div className="media-card">
             <a
-              href="https://www.instagram.com/luuh_macena_" 
+              href="https://www.instagram.com/luuh_macena_"
               target="_blank"
               rel="noopener noreferrer"
               className="link-instagram"
@@ -42,9 +43,9 @@ function Midias() {
             </a>
           </div>
 
-          <div className="card-media">
+          <div className="media-card">
             <a
-              href="https://www.linkedin.com/in/luiza-macena" 
+              href="https://www.linkedin.com/in/luiza-macena"
               target="_blank"
               rel="noopener noreferrer"
               className="link-linkedin"
@@ -64,8 +65,8 @@ function Midias() {
             Se você quiser discutir oportunidades, colaborações ou apenas conversar, não hesite em entrar em contato.
           </p>
           <a
-            href="/contato" 
-            className="botao-contato"
+            href="/contato"
+            className="contact-button"
           >
             Ir para a Página de Contato
           </a>
@@ -76,4 +77,3 @@ function Midias() {
 }
 
 export default Midias;
-
