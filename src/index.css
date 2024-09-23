@@ -253,7 +253,7 @@ footer {
 }
 
 .midias-container p:last-child {
-  margin-bottom: 5px; /* Ajustar para um valor menor */
+  margin-bottom: 5px; 
 }
 
 .contact-button {
@@ -267,5 +267,5 @@ footer {
   text-align: center;
   text-decoration: none;
   transition: background-color 0.3s ease, transform 0.3s ease;
-  margin-top: 5px; /* Ajustar para um valor menor */
+  margin-top: 5px; 
 }
