@@ -7,38 +7,38 @@ function Skills({ skills }) {
       titulo: "HTML",
       nivel: "Avançado",
       tempoxp: "6 meses",
-      color: "red"
+      color: "#EA2F64"
     },
     {
       titulo: "CSS",
       nivel: "Avançado",
       tempoxp: "6 ano",
-      color: "purple"
+      color: "#EA2F64"
     },
     {
       titulo: "Node JS",
       nivel: "Basico",
       tempoxp: "4 meses",
-      color: "blue",
-      imagemIcone: "/assets/curinthia.png"
+      color: "#EA2F64",
+    
     },
     {
       titulo: "Python",
       nivel: "Intermediario",
       tempoxp: "6 meses",
-      color: "green"
+      color: "#EA2F64"
     },
     {
       titulo: "React",
       nivel: "Basico",
       tempoxp: "3 meses",
-      color: "cyan"
+      color: "#EA2F64"
     },
     {
       titulo: "JavaScript",
       nivel: "Intermediario",
       tempoxp: "5 meses",
-      color: "yellow"
+      color: "#EA2F64"
     },
   ]
 

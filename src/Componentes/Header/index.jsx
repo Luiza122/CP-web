@@ -9,6 +9,9 @@ function Header() {
 		<li>
 			<Link to='/'>Menu</Link>
 		</li>
+		<li>
+			<Link to='/Apresentação'>Apresentação</Link>
+		</li>
     <li>
 			<Link to='/Lista'>Lista de projetos</Link>
 		</li>
@@ -18,9 +21,7 @@ function Header() {
     <li>
 			<Link to='/contato'>Contato</Link>
 		</li>
-		<li>
-			<Link to='/Apresentação'>Apresentação</Link>
-		</li>
+		
 	</ul>
         </nav>
     </header>
