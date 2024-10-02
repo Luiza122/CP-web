@@ -11,6 +11,7 @@ html, body {
   overflow-x: hidden; 
 }
 
+
 body {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   background-color: #ffe6f2; 
@@ -32,8 +33,21 @@ header {
   justify-content: space-between;
 }
 
-header h1 {
-  margin-bottom: 10px;
+
+.logo-title {
+  display: flex; 
+  align-items: center;
+}
+
+.logo {
+  margin-right: 10px; 
+  width: 150px;
+  height: auto;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 0; 
 }
 
 nav ul {
