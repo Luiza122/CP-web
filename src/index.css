@@ -202,84 +202,84 @@ footer {
 
 .projeto-card a:hover {
   background-color: black;
-  color: #fff;
+  color: #9FA5A9;
 }
+
+
+
+
+
+
+
+
+
 
 .midias-container {
   padding: 20px;
-  background-color: #fff;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  max-width: 1000px;
-  margin: auto;
+  text-align: center;
 }
 
-.midias-container h1 {
-  font-size: 2rem;
-  color: 443850;
-  margin-bottom: 20px;
-}
 
-.midias-container p {
-  font-size: 1rem;
-  color: #555;
-  margin-bottom: 20px;
+.cards-midias {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
 }
 
 .media-card {
-  display: flex;
-  align-items: center;
-  padding: 10px;
-  border-radius: 20px;
-  background-color: #ffffff;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  border: 1px solid #e0e0e0;
-  max-width: 400px;
-  width: 100%;
-  margin-bottom: 15px;
+  background-color: #ececec; 
+  border-radius: 10px;
+  padding: 20px;
+  width: 250px;
+  transition: transform 0.3s ease;
 }
 
 .media-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05); 
 }
 
-.media-card svg {
-  flex-shrink: 0;
-  margin-right: 12px;
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
-.media-card div {
-  display: flex;
-  flex-direction: column;
+.icone {
+  color: #6d6d6d; 
+  margin-bottom: 10px;
 }
 
-.media-card span {
-  font-size: 1.25rem;
-  font-weight: 600;
+span {
+  font-size: 1.2em;
   color: #333;
+  font-weight: bold;
 }
 
 .media-card p {
-  font-size: 0.875rem;
-  color: #666;
+  color: #6f6f6f;
+  font-size: 1em;
+  margin-top: 5px;
 }
 
-.midias-container p:last-child {
-  margin-bottom: 5px; 
+
+.contato-section {
+  margin-top: 40px;
+  padding: 20px;
+  text-align: center;
 }
 
 .contact-button {
-  display: inline-block;
+  background-color: #9FA5A9;
+  color: #fff;
   padding: 10px 20px;
-  border-radius: 5px;
-  background-color: #7D8491;
-  color: white;
-  font-size: 1rem;
-  font-weight: bold;
-  text-align: center;
+  border-radius: 8px;
+  font-size: 1.1em;
   text-decoration: none;
-  transition: background-color 0.3s ease, transform 0.3s ease;
-  margin-top: 5px; 
+  transition: background-color 0.3s ease;
+  display: inline-block; 
+  margin-top: 20px; 
+}
+
+.contact-button:hover {
+  background-color: #9FA5A9;
 }
