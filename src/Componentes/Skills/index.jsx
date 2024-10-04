@@ -7,38 +7,38 @@ function Skills({ skills }) {
       titulo: "HTML",
       nivel: "Avançado",
       tempoxp: "6 meses",
-      color: "#EA2F64"
+      color: "#615E71"
     },
     {
       titulo: "CSS",
       nivel: "Avançado",
       tempoxp: "6 ano",
-      color: "#EA2F64"
+      color: "#615E71"
     },
     {
       titulo: "Node JS",
       nivel: "Basico",
       tempoxp: "4 meses",
-      color: "#EA2F64",
+      color: "#615E71",
     
     },
     {
       titulo: "Python",
       nivel: "Intermediario",
       tempoxp: "6 meses",
-      color: "#EA2F64"
+      color: "#615E71"
     },
     {
       titulo: "React",
       nivel: "Basico",
       tempoxp: "3 meses",
-      color: "#EA2F64"
+      color: "#615E71"
     },
     {
       titulo: "JavaScript",
       nivel: "Intermediario",
       tempoxp: "5 meses",
-      color: "#EA2F64"
+      color: "#615E71"
     },
   ]
 

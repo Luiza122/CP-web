@@ -14,7 +14,7 @@ html, body {
 
 body {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  background-color: #ffe6f2; 
+  background-color: #C0C5C1; 
   padding: 0;
   overflow-y: auto; 
 }
@@ -25,7 +25,7 @@ main {
 }
 
 header {
-  background-color: #ff66b2;
+  background-color: #7D8491;
   padding: 20px;
   height: 150px;
   display: flex;
@@ -66,7 +66,7 @@ nav ul li:last-child {
 }
 
 nav ul li a {
-  color: white;
+  color: C0C5C1;
   text-decoration: none;
 }
 
@@ -85,11 +85,11 @@ nav ul li a:hover {
 }
 
 .skill-card {
-  border: 1px solid #ff99cc; 
+  border: 1px solid #7D8491; 
   border-radius: 5px;
   padding: 5px;
   margin-bottom: 10px;
-  background-color: #ffccf2; 
+  background-color: #C0C5C1; 
 }
 
 #contact {
@@ -107,22 +107,22 @@ nav ul li a:hover {
   margin: 10px 100px;
   width: 50%;
   padding: 10px;
-  border: 1px solid #ff66b2; 
+  border: 1px solid #7D8491; 
 }
 
 #contact form button {
   width: 10%;
   border-radius: 30px;
   border: none;
-  background-color: #ff66b2; 
-  color: white;
+  background-color: #7D8491; 
+  color: C0C5C1;
   padding: 10px;
   cursor: pointer;
 }
 
 footer {
-  background-color: #ff66b2; 
-  color: white;
+  background-color: #7D8491; 
+  color: C0C5C1;
   text-align: center;
   padding: 10px 0;
   height: 50px;
@@ -137,7 +137,7 @@ footer {
   height: 300px;
   border-radius: 50%; 
   border: 8px solid transparent; 
-  background-image: linear-gradient(45deg, #ff66b2, #ffccf2);
+  background-image: linear-gradient(45deg, #9FA5A9, #C0C5C1);
   background-origin: border-box;
   background-clip: content-box, border-box; 
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
@@ -165,7 +165,7 @@ footer {
 }
 
 .projeto-card {
-  background-color: #fff; 
+  background-color: #9FA5A9; 
   border-radius: 10px; 
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
   padding: 15px;
@@ -179,7 +179,7 @@ footer {
 
 .projeto-card h2 {
   font-size: 1.5rem;
-  color: #ff66b2;
+  color: black;
   margin-bottom: 10px;
 }
 
@@ -192,16 +192,16 @@ footer {
 .projeto-card a {
   display: inline-block;
   font-size: 1rem;
-  color: #ff66b2;
+  color: black;
   text-decoration: none;
-  border: 2px solid #ff66b2;
+  border: 2px solid black;
   border-radius: 5px;
   padding: 10px 20px;
   transition: background-color 0.3s ease, color 0.3s ease; 
 }
 
 .projeto-card a:hover {
-  background-color: #ff66b2;
+  background-color: black;
   color: #fff;
 }
 
@@ -216,7 +216,7 @@ footer {
 
 .midias-container h1 {
   font-size: 2rem;
-  color: #ff66b2;
+  color: 443850;
   margin-bottom: 20px;
 }
 
@@ -274,7 +274,7 @@ footer {
   display: inline-block;
   padding: 10px 20px;
   border-radius: 5px;
-  background-color: #ff66b2;
+  background-color: #7D8491;
   color: white;
   font-size: 1rem;
   font-weight: bold;
