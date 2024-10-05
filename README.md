@@ -13,7 +13,6 @@ Este é o meu portfólio pessoal, desenvolvido para apresentar minhas habilidade
 - Habilidades e Níveis de Conhecimento
 - Projetos Realizados
 - Seção de Contato
-- Modo Noturno
 
 ## Tecnologias Utilizadas
 
