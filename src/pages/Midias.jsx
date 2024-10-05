@@ -70,7 +70,7 @@ function Midias() {
             Ir para a Página de Contato
           </a>
         </div>
-      </div> {/* Fechando a div principal */}
+      </div> 
     </div>
   );
 }
